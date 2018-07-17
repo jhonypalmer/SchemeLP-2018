@@ -9,9 +9,9 @@
 ## 2. Sudoku
 
 #### Abaixo tem-se um exemplo do jogo Sudoku.
-#### Problema Solução
 
 ```
+       Problema         -        Solução
  . . 4 | 8 . . | . 1 7  -  9 3 4 | 8 2 5 | 6 1 7
        |       |        -        |       |
  6 7 . | 9 . . | . . .  -  6 7 2 | 9 1 4 | 8 5 3
@@ -44,9 +44,9 @@
  * s o século anterior2.
  #### Por exemplo, para 4 de Julho de 1989 seria m=5, d=4, a=89, s=19. Por outro lado, para 4 de Janeiro do mesmo ano seria m=11, d=4, a=88, s=19.
  #### Vejamos agora os passos do algoritmo. Seja:
- * mint a parte inteira de (13m-1)/5.
- * aint a parte inteira de a/4.
- * sint a parte inteira de s/4.
+ * 'mint' a parte inteira de (13m-1)/5.
+ * 'aint' a parte inteira de a/4.
+ * 'sint' a parte inteira de s/4.
  * x = mint+aint+sint+d+a-2s.
  * dia o resto da divisão inteira x/7.
  1. Esta identificação dos meses, perfeitamente anormal, é apenas utilizada dentro do algoritmo.
