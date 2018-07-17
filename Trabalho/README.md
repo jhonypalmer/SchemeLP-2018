@@ -1,4 +1,4 @@
-# Problemas para Resolução em Linguagem Funcional (Scheme)
+# Problemas para Resolução em Linguagem Funcional [Lista de Scheme](https://github.com/jhonypalmer/SchemeLP-2018/blob/master/Trabalho/LP-Scheme-2018.pdf)
 
 ## 1. Problema das oito rainhas.
 
@@ -35,7 +35,7 @@
  ## 3. Percurso Rodoviário
  #### Um percurso rodoviário é composto por uma parte de subida, uma de descida e outra plana (sem declive). Sabe-se o consumo médio (Km/l) de um carro quando ele desloca em percurso horizontal (sem declive). Em relação a este consumo, o mesmo carro, em subida, gasta mais 30% e, em descida, menos 10%. Escrever em Scheme o procedimento consumo-total que tem como parâmetros consumo, plano, subida e descida, que representam, respectivamente, o consumo médio do carro no plano, a quantidade de Km de no plano, a quantidade de Km em subida e, finalmente, a quantidade de Km em descida. Este procedimento deve devolver a quantidade em litros gasta pelo carro no percurso definido pelos parâmetros informados.
  
- ## 4.Dia da Semana 
+ ## 4. Dia da Semana 
  #### Para determinar o dia da semana de uma data do calendário é utilizado um algoritmo como descrito abaixo. Para o algoritmo, considere:
  * m o mês do ano, em que Março é o mês 1, Abril 2, até Dezembro que é o mês 10. Janeiro e Fevereiro são considerados os meses 11 e 12 do ano anterior1.
  * d o dia do mês.
