@@ -1,4 +1,10 @@
-(define (dia-semana dia mes ano)
+; 4. Para determinar o dia da semana de uma data do calendário é utilizado um algoritmo como descrito abaixo. Para o algoritmo, considere:
+; • m o mês do ano, em que Março é o mês 1, Abril 2, até Dezembro que é o mês 10. Janeiro e Fevereiro são considerados os meses 11 e 12 do ano anterior1.
+; • d o dia do mês.
+; • a o ano do século.
+; • s o século anterior2. 
+
+(define (dia-da-semana dia mes ano)
   (cond
     ((= mes 1) (set! mes 11) (set! ano(- ano 1)))
     ((= mes 2) (set! mes 12) (set! ano(- ano 1)))
