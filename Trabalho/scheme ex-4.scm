@@ -30,5 +30,16 @@
 (cond
   ((= diaSemana -1) (set! diaSemana 6))
 )
-(print "o dia da semana é: " diaSemana)
+
+(print "O dia da semana é: " diaSemana)
+
+(cond
+  ((= diaSemana 6) (display "Sexta-feira\n"))
+  ((= diaSemana 5) (display "Quinta-feira\n"))
+  ((= diaSemana 4) (display "Quarta-feira\n"))
+  ((= diaSemana 3) (display "Terça-feira\n"))
+  ((= diaSemana 2) (display "Segunda-feira\n"))
+  ((= diaSemana 1) (display "Domingo\n"))
+  ((= diaSemana 0) (display "Sábado\n")) 
+)
 )
