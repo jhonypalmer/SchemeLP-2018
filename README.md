@@ -8,3 +8,6 @@ Trabalho de Scheme da matéria Linguagens de Programação 2018/01.
 
 ## Descrição do Trabalho
 - [Trabalho Scheme](https://github.com/jhonypalmer/SchemeLP-2018/tree/master/Trabalho)
+
+## Compilador Utilizado
+- [https://repl.it](https://repl.it/repls/MintcreamPlainGreyware)
