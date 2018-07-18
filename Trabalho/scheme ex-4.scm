@@ -25,7 +25,7 @@
 (define aint (div ano 4))
 (define sint(div seculo 4))
 (define x (- (+ mint aint sint ano dia)(* 2 seculo)))
-(define diaSemana (mod x 7))
+(define diaSemana (- (mod x 7) 1))
 
 (cond
   ((= diaSemana -1) (set! diaSemana 6))
@@ -34,12 +34,12 @@
 (print "O dia da semana é: " diaSemana)
 
 (cond
-  ((= diaSemana 6) (display "Sexta-feira\n"))
-  ((= diaSemana 5) (display "Quinta-feira\n"))
-  ((= diaSemana 4) (display "Quarta-feira\n"))
-  ((= diaSemana 3) (display "Terça-feira\n"))
-  ((= diaSemana 2) (display "Segunda-feira\n"))
-  ((= diaSemana 1) (display "Domingo\n"))
-  ((= diaSemana 0) (display "Sábado\n")) 
+  ((= diaSemana 0) (display "Domingo\n"))
+  ((= diaSemana 1) (display "Segunda-feira\n"))
+  ((= diaSemana 2) (display "Terça-feira\n"))
+  ((= diaSemana 3) (display "Quarta-feira\n"))
+  ((= diaSemana 4) (display "Quinta-feira\n"))
+  ((= diaSemana 5) (display "Sexta-feira\n"))
+  ((= diaSemana 6) (display "Sábado\n")) 
 )
 )
